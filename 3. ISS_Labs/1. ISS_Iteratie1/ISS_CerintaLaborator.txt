@@ -1,0 +1,10 @@
+5. URMARIRE BUG-URI
+
+O firma producatoare de software pune la dispozitia programatorilor si verificatorilor sai un sistem prin care acestia pot sa comunice electronic. Astfel, fiecare dintre angajatii mentionati are la dispoziție un terminal prin care:
+
+- se logheaza in functie de job iar apoi:
+- verificatorul poate înregistra un bug, dându-i o denumire si o descriere; imediat dupa
+înregistrarea bug-ului, toti programatorii vad lista bug-urilor actualizata cu obiectul nou
+introdus;
+- programatorul vizualizeaza lista bug-urilor; de asemenea, programatorul poate selecta un bug din lista si poate declansa un buton prin care declara ca bug-ul a fost eliminat, caz în care bug-ul este scos din lista tuturor programatorilor;
+- adminul care access la toate functionalitatile verificatorului si programatorului si in plus poate edita datele despre un bug introdus, si poate adauga functionalitati pentru a fi verificate de verificatori.
