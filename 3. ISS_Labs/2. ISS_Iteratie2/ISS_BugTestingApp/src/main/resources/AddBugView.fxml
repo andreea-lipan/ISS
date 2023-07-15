@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AddBugController">
+
+    <children>
+        <TextField layoutX="247.0" layoutY="65.0" prefHeight="26.0" prefWidth="262.0" promptText="eg: Floating character" />
+        <Label layoutX="85.0" layoutY="68.0" prefHeight="20.0" prefWidth="74.0" text="Name:">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="85.0" layoutY="190.0" prefHeight="20.0" prefWidth="74.0" text="Description:">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="247.0" layoutY="21.0" text="Add bug">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <Button layoutX="88.0" layoutY="352.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="204.0" style="-fx-background-color: #80FF80;" text="Update" />
+        <Button layoutX="305.0" layoutY="352.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="204.0" style="-fx-background-color: #FF8080;" text="Cancel" />
+        <TextField layoutX="247.0" layoutY="101.0" prefHeight="26.0" prefWidth="262.0" promptText="eg: Character floats when emote" />
+        <Label layoutX="85.0" layoutY="104.0" prefHeight="20.0" prefWidth="74.0" text="Summary:">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="85.0" layoutY="280.0" prefHeight="20.0" prefWidth="126.0" text="Steps to reproduce:">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <TextArea layoutX="247.0" layoutY="259.0" prefHeight="82.0" prefWidth="262.0" promptText="eg:  Start a match -&gt; Hold weapon in hand -&gt; Emote" />
+        <TextArea layoutX="247.0" layoutY="173.0" prefHeight="70.0" prefWidth="262.0" promptText="eg: If used certain emotes the charater will startfloating" />
+      <TextField layoutX="247.0" layoutY="134.0" prefHeight="26.0" prefWidth="262.0" promptText="eg: Emoting in match" />
+      <Label layoutX="85.0" layoutY="137.0" prefHeight="20.0" prefWidth="98.0" text="Functionality:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+    </children>
+
+</AnchorPane>
